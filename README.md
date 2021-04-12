@@ -12,6 +12,14 @@
 # Information:
   Creating simple window that used imgui for graphic interface with glfw and glad for window and render build using the cmake build. But note that it still need compiler tools and opengl3 if install.
 
+# Build:
+  Tested window 10 64 bit Visual Studio Community 2019, Windows Kits and CMake.
+
+  First error build. It need lib set up.
+
+# Notes:
+ * First error build that cmake link error glfw3.lib. Second time it should work.
+
 # Glad 0.1.34:
   There is premade files to help quick build test. It used web service generate the files.
 
